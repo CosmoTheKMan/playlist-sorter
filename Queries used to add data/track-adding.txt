@@ -1,0 +1,290 @@
+mutation {
+  one: createTrack(input:{
+    id: "1",
+    name: "One night in Hackney",
+    artist:"Dynamo City (Chris Liberator, Henry Cullen A.K.A D.A.V.E The Drummer)",
+    genre: Acid_Techno,
+    bpm: 146,
+    key: D_10B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  two: createTrack(input:{
+    id: "2",
+    name: "No Religion",
+    artist:"Christ On A Bike",
+    genre: Acid_Techno,
+    bpm: 142,
+    format: VINYL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  three: createTrack(input:{
+    id: "3",
+    name: "F__K The Tories",
+    artist:"Lee S., Benji303",
+    genre: Acid_Techno,
+    bpm: 145,
+    key: F_7B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  four: createTrack(input:{
+    id: "4",
+    name: "Croydon Girl",
+    artist:"Chris Liberator, Sterling Moss, Rachel Rackitt",
+    genre: Acid_Techno,
+    bpm: 144,
+    key: E_12B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  five: createTrack(input:{
+    id: "5",
+    name: "Yes! London",
+    artist:"Cogs Beans & The Machines",
+    genre: Acid_Techno,
+    bpm: 144,
+    key: E_12B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  six: createTrack(input:{
+    id: "6",
+    name: "Inner City Junkies",
+    artist:"Kektex",
+    genre: Acid_Techno,
+    bpm: 142,
+    key: Abm_1A,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  seven: createTrack(input:{
+    id: "7",
+    name: "Modulate",
+    artist:"A.P.",
+    genre: Hard_Techno,
+    bpm: 141,
+    key: Ebm_2A,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  eight: createTrack(input:{
+    id: "8",
+    name: "Lockdown A.P. Remix",
+    artist:"A.P.",
+    genre: Hard_Techno,
+    bpm: 139,
+    key: Bm_10A,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  nine: createTrack(input:{
+    id: "9",
+    name: "Call The Ships To Port",
+    artist:"Covenant",
+    genre: EBM,
+    bpm: 141,
+    key: A_11B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  ten: createTrack(input:{
+    id: "10",
+    name: "Face Of Death Blind Rage Mix",
+    artist:"Suicide Commando",
+    genre: EBM,
+    bpm: 130,
+    key: A_11B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  eleven: createTrack(input:{
+    id: "11",
+    name: "Kathys Song (VNV Nation Victoria Mix)",
+    artist:"Apoptygma Berzerk, VNV Nation",
+    genre: EBM,
+    bpm: 122,
+    key: Ab_4B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  twelve: createTrack(input:{
+    id: "12",
+    name: "War On Error",
+    artist:"Rotersand",
+    genre: EBM,
+    bpm: 124,
+    key: Db_3B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  thirteen: createTrack(input:{
+    id: "13",
+    name: "Poisonous Friend",
+    artist:"Seabound",
+    genre: EBM,
+    bpm: 135,
+    key: F_7B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  fourteen: createTrack(input:{
+    id: "14",
+    name: "Merlin (Infected Mix)",
+    artist:"Infected Mushroom",
+    genre: Psy_Trance,
+    bpm: 145,
+    key: A_11B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  fifteen: createTrack(input:{
+    id: "15",
+    name: "Klunk Klik (Original Mix)",
+    artist:"Space Tribe",
+    genre: Psy_Trance,
+    bpm: 145,
+    key: G_9B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  sixteen: createTrack(input:{
+    id: "16",
+    name: "Free Tibet",
+    artist:"Astral Projection",
+    genre: Psy_Trance,
+    bpm: 145,
+    key: Db_3B,
+    format: DIGITAL
+  }){
+    id
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  },
+  seventeen: createTrack(input:{
+    id: "17",
+    name: "Deep Jungle Walk",
+    artist:"Astrix",
+    genre: Psy_Trance,
+    bpm: 138,
+    key: Gb_2B,
+    format: DIGITAL
+  }){
+    id,
+    name,
+    artist,
+    genre,
+    bpm,
+    key,
+    format
+  }
+}

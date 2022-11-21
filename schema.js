@@ -64,6 +64,8 @@ const schema = buildSchema(`
     type Query {
         getPlaylist(id: ID): Playlist
         getTrack(id: ID): Track
+        getAllTracks: [Track]
+        getAllPlaylists: [Playlist]
 
     }
 
