@@ -35,6 +35,10 @@ const resolver = {
     getTrack: ({id}) => {
         return new Track(id, trackholder[id])
     },
+    getAllPlaylists: () => {
+        console.log(playlistholder)
+        //return playlistholder.map()
+    },
     createPlaylist: ({input}) => {
         playlistholder[input.id] = input
         return new Playlist(input.id, input)
